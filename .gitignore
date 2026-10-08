@@ -1,0 +1,14 @@
+# Secrets & Environment variables
+.env
+*.env
+
+# Python artifacts & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local test outputs & scraped files
+*.txt
+*.pdf
+*.json
