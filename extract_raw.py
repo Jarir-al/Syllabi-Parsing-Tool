@@ -48,7 +48,7 @@ if __name__ == "__main__":
     content = extract_pdf_content(pdf_filename)
     
     # Save the output
-    output_filename = "raw_output_two.txt"
+    output_filename = "raw_output.txt"
     with open(output_filename, "w", encoding="utf-8") as f:
         f.write(content)
         
